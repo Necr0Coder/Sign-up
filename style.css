@@ -1,3 +1,22 @@
 body {
-	background-color: black;
+	background-color: rgb(121, 121, 121);
+}
+
+.wrapper {
+	width: 100%;
+	margin-top: 4rem;
+	display: flex;
+}
+
+.form-wrap {
+	margin-left: 50px;
+}
+
+.banner-img {
+	max-width: 40%;
+	height: auto;
+}
+
+.text {
+	color: white;
 }

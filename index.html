@@ -20,16 +20,27 @@
 			<section class="form">
 				<div class="form-wrap">
 					<h1 class="text">
-						This is not a real online service! You know need something like this
-						in your life to help you realise your deepwest dreqams. Sign up
-						<i>now</i> to get started.<br /><br />You know you want to.<br /><br /><br /><br />Let's
-						do this!
+						This is not a real online service! You know need something like this in your life to help you realise your deepwest dreqams. Sign up
+						<i>now</i> to get started.<br /><br />You know you want to.<br /><br /><br /><br />Let's do this!
 					</h1>
 					<form action="example.com/test" method="post">
-						<label>FIRST NAME</label><input type="text" />
-						<label>LAST NAME</label><input type="text" />
-						<input type="email" /><input type="number" /><input
-							type="password" /><input type="password" />
+						<label>FIRST NAME</label>
+						<input required type="text" for="first_name" id="first_name" placeholder="Thor" minlength="1" />
+
+						<label>LAST NAME</label>
+						<input required type="text" for="last_name" id="last_name" placeholder="Odin" minlength="1" />
+
+						<label for="">EMAIL</label>
+						<input required type="email" for="email" id="email" placeholder="email@address.com" minlength="1" maxlength="100" />
+
+						<label for="">PHONE NUMBER</label>
+						<input required type="number" for="phone" id="phone" />
+
+						<label for="">PASSWORD</label>
+						<input required type="password" for="password" id="password" />
+
+						<label for="">CONFIRM PASSWORD</label>
+						<input required type="password" id="confirm-pw" />
 					</form>
 				</div>
 			</section>

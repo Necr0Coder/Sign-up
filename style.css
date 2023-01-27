@@ -1,23 +1,55 @@
 body {
 	background-color: rgb(121, 121, 121);
 	margin: auto;
+	padding: 0;
 }
 
 .wrapper {
 	width: 100%;
 	display: flex;
+	padding: 0px;
 }
 
 .form-wrap {
 	margin-left: 50px;
 }
 
-.banner-img {
+.banner {
+	position: relative;
+}
+
+.beach-img {
 	height: 100vh;
+}
+
+.odin-img {
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	background-color: rgba(0, 0, 0, 0.5);
+	width: 100%;
+	height: 8rem;
+	top: 15rem;
+	padding: 1rem 0rem;
+}
+
+.odin-img > p {
+	font-size: 3rem;
+	color: aliceblue;
+	align-self: center;
 }
 
 .text {
 	color: white;
+}
+
+.input-flex {
+	display: flex;
+	margin-bottom: 1rem;
+}
+
+.labelsInputs {
+	margin-right: 3rem;
 }
 
 input {
